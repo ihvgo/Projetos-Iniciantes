@@ -4,4 +4,4 @@ escolha = int(input('Estou pensando em um número entre 0 e 5. Tente acertar qua
 if escolha == n:
     print('Você acertou o número que eu pensei.')
 else:
-    print('Você errou o número que eu pensei.')
+    print(f'Você errou. O número que eu pensei foi {n}.')
